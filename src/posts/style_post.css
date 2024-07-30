@@ -1,0 +1,131 @@
+.post-container {
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: whitesmoke;
+    padding: 40px 0 20px 0;
+    min-height: 100%;
+}
+
+.post-box {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.post-box .post-content {
+    color: black;
+    font-size: 15px;
+}
+
+.post-box h1 {
+    font-size: 20px;
+}
+
+.post-box a {
+    text-decoration: none;
+    color: black;
+}
+
+.post-box p {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.post-box a:hover {
+    color: dodgerblue;
+}
+
+/* === AFFICHAGE RÉPONSES === */
+
+.answer {
+    display: flex;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.answer_abonne {
+    display: flex;
+    background-color: white;
+    margin: 20px 0 50px 60px;
+    padding: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.answer p, .answer_abonne p {
+    font-size: 13px;
+    color: gray;
+}
+
+.answer a, .answer_abonne a {
+    text-decoration: none;
+    color: black;
+}
+
+.answer a:hover, .answer_abonne a:hover {
+    color: dodgerblue;
+}
+
+.answer-content p {
+    font-size: 15px;
+    color: black;
+    margin-left: 10px;
+}
+
+.answer-content .answer-date {
+    font-size: 13px;
+    color: gray;
+    padding-top: 30px;
+}
+
+.like {
+    width: 70px;
+}
+
+#like-button {
+    font-size: 40px;
+}
+
+#like-button:hover {
+    color: green;
+}
+
+#like-button.liked {
+    color: green;
+}
+
+/* === FORM RÉPONSES === */
+
+#a_content {
+    margin: 10px;
+    width: 700px;
+    height: 200px;
+}
+
+#submit_answer {
+    text-align: center;
+	padding: 10px;
+    margin: 10px;
+	border-radius: 5px;
+	width: 300px;
+	border: none;
+	font-size: 17px;
+	background-color: #223053;
+	color: white;
+	cursor: pointer;
+}
+
+#submit_answer:hover {
+    border-radius: 20px;
+    color: dodgerblue;
+}
