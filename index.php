@@ -44,7 +44,7 @@ if (isset($_POST['sign_in'])) {
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="auth/style_auth.css">
+	<link rel="stylesheet" href="src/auth/style_auth.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -76,7 +76,7 @@ if (isset($_POST['sign_in'])) {
 
 						<label for="password">Mot de passe</label>
 						<input id="password" type="password" name="password" placeholder="Enter your password">
-						<?php require_once "auth/showPass.php"; ?>
+						<?php require_once "src/auth/showPass.php"; ?>
 
 						<?php if(isset($erreur)) echo "<p class='erreur'> " . $erreur . "</p>"; ?> 
 						<button type="submit" id="sign_in" name="sign_in">Connexion &#10142</button>
