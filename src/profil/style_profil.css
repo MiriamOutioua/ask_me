@@ -1,0 +1,375 @@
+/* === PROFIL === */
+.profil-container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(45, 45, 45);
+    overflow: hidden;
+}
+
+.info_bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(35, 35, 35);
+}
+
+.profil {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 20px;
+    left: 25px;
+}
+
+.profil img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid rgb(35, 35, 35);
+}
+
+.info_bar ul {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding-left: 200px;
+    height: 100%;
+    margin: 0;
+}
+
+.info_bar li {
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    padding: 1.2em 4em;
+}
+
+.info_bar li:hover, .active {
+    border-bottom: 3px solid dodgerblue;
+}
+
+.info_bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.profil-name {
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+}
+
+.nbAbo {
+    font-size: 15px;
+    color: whitesmoke;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.nbAbo a {
+    font-size: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* === EDIT PROFIL === */
+
+.edit-profil a {
+    position: absolute;
+    right: 255px;
+    bottom: 65px;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    background-color: rgb(35, 35, 35);
+    color: dodgerblue;
+}
+
+.edit-profil a:hover {
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.edit-profil-container, .edit-post-container, .delete-post-container {
+	margin: 50px 0 35px 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    padding: 40px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    min-height: 70vh;
+}
+
+.retour-profil a {
+    font-size: 65px;
+    text-decoration: none;
+    color: #223053;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.retour-profil a:hover {
+    color: dodgerblue;
+}
+
+.edit-profil-container h1, .edit-post-container h1, .delete-post-container h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.edit-form {
+    align-items: flex-start;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.edit-form input {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	width: 300px;
+	outline: none;
+}
+
+.edit-post-container .edit-form input, textarea {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	width: 500px;
+	outline: none;
+    resize: none;
+}
+
+.edit-form button {
+	align-items: center;
+    display: flex;
+    flex-direction: column;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 300px;
+	border: none;
+	font-size: 14px;
+	background-color: #223053;
+	color: white;
+	cursor: pointer;
+}
+
+.edit-form button:hover {
+    border-radius: 20px;
+    color: dodgerblue;
+}
+
+.edit-form .err {
+    background-color: lightpink;
+    color: red;
+	width: 300px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.edit-profil-container p.maj {
+    background-color: lightgreen;
+    color: forestgreen;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* === EDIT MOT DE PASSE === */
+
+.edit-pwd a {
+    text-decoration: none;
+    position: absolute;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    right: 30px;
+    bottom: 65px;
+    border: 2px solid dodgerblue;
+    background-color: rgb(35, 35, 35);
+    color: dodgerblue;
+}
+
+.edit-pwd a:hover {
+    color: white;
+    background-color: rgb(35, 35, 35);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* === ABONNEMENT ===*/
+
+.suivre a {
+    position: absolute;
+    right: 45px;
+    bottom: 65px;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.suivre a:hover {
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.abonne a {
+    position: absolute;
+    right: 45px;
+    bottom: 65px;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    background-color: rgb(35, 35, 35);
+    color: dodgerblue;
+}
+
+.abonne a:hover {
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.abo-container {
+	margin: 50px 0 35px 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 40px;
+    position: relative;
+    min-height: 100%;
+}
+
+.retour-abo a {
+    font-size: 65px;
+    text-decoration: none;
+    color: #223053;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.retour-abo a:hover {
+    color: dodgerblue;
+}
+
+.abo-box {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.abo-box a {
+    text-decoration: none;
+    color: black;
+}
+
+.abo-box a:hover {
+    color: dodgerblue;
+}
+
+/* === EDITER/SUPPRIMER POSTS === */
+
+.edit-post-container .err {
+    background-color: lightpink;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit-post-container .delete, .delete-post-container .err {
+    background-color: lightgreen;
+    color: forestgreen;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.delete-form {
+    text-align: center;
+    font-size: 20px;
+}
+
+.delete-form button {
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 300px;
+	border: none;
+	font-size: 14px;
+	color: white;
+	cursor: pointer;
+}
+
+.delete-form .oui {
+    background-color: lightgreen;
+}
+
+.delete-form .non {
+    background-color: lightpink;
+}
+
+.delete-form button:hover {
+    background-color: dodgerblue;
+}
+
+.delete a {
+    position: absolute;
+    right: 10%;
+    padding: 10px;
+    background-color: gainsboro;
+    border: gainsboro 1px;
+    border-radius: 1px;
+    font-size: 15px;
+}
+
+.delete a:hover {
+    background-color: red;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.edit a {
+    position: absolute;
+    right: 13%;
+    padding: 10px;
+    background-color: gainsboro;
+    border: gainsboro 1px;
+    font-size: 15px;
+    color: dodgerblue;
+}
+
+.edit a:hover {
+    background-color: dodgerblue;
+    border-radius: 3px;
+    color: black;
+}
