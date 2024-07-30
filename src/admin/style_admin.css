@@ -1,0 +1,222 @@
+.admin-table {
+    margin-left: 3%;
+    min-height: 100%;
+}
+
+.admin-table table {
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 10px 10px 20px 5px;
+    width: 95%;
+    top: 35%;
+}
+
+.admin-table h1 {
+    position: absolute;
+    top: 30%;
+    text-decoration: underline;
+}
+.admin-table th {
+    padding: 10px;
+}
+
+.admin-table td {
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+.admin-table tbody td:last-of-type {
+    border-bottom: none;
+}
+
+.admin-table tbody:last-of-type td {
+    border-bottom: none;
+}
+
+.admin-table a:hover {
+    color: dodgerblue;
+}
+
+.admin-table a {
+    text-decoration: none;
+    color: black;
+}
+
+.suppr a {
+    padding: 10px;
+    background-color: gainsboro;
+    border: gainsboro 1px;
+    border-radius: 1px;
+    font-size: 14px;
+}
+
+.suppr a:hover {
+    background-color: red;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.ajout-admin {
+    margin-left: 30%;
+    margin-top: 25px;
+}
+
+.ajout-admin a {
+    background-color: #223053;
+    padding: 15px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.ajout-admin a:hover {
+    border-radius: 20px;
+}
+
+.container-admin {
+    min-height: 100%;
+}
+
+.admin-form-container {
+    position: absolute;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    width: 1000px;
+    height: 600px;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.admin-form input {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	width: 350px;
+	outline: none;
+}
+
+.admin-form button {
+    text-align: center;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 350px;
+	border: none;
+	font-size: 17px;
+	background-color: #223053;
+	color: white;
+	cursor: pointer;
+}
+
+.admin-form button:hover {
+    border-radius: 20px;
+    color: dodgerblue;
+}
+
+.admin-form-container h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.erreur  {
+	font-weight: bolder;
+	color: red;
+	background-color: lightpink;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	width: 350px;
+}
+
+.success {
+    background-color: lightgreen;
+    color: forestgreen;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.admin-table .post-box {
+    width: 1350px;
+}
+
+.lien-questions a, .lien-reponses a, .lien-profils a, .lien-admins a {
+    background-color: #223053;
+    padding: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.lien-questions a:hover, .lien-reponses a:hover, .lien-profils a:hover, .lien-admins a:hover {
+    border-radius: 20px;
+}
+
+.lien-questions {
+    position: absolute;
+    left: 5%;
+    top: 22%;
+}
+
+.lien-reponses {
+    position: absolute;
+    left: 28%;
+    top: 22%;
+}
+
+.lien-profils {
+    position: absolute;
+    left: 53%;
+    top: 22%;
+}
+
+.lien-admins {
+    position: absolute;
+    left: 76%;
+    top: 22%;
+}
+
+.admin-table .post-box {
+    position: absolute;
+    top: 40%;
+}
+
+.retour a {
+    font-size: 65px;
+    text-decoration: none;
+    color: #223053;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.retour a:hover {
+    color: dodgerblue;
+}
