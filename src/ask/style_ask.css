@@ -1,0 +1,102 @@
+.container {
+	min-height: 100%;
+}
+
+.content {
+	display: flex;
+	margin: 50px;
+	padding: 30px;
+	height: 100%;
+}
+
+.question {
+	position: relative;
+	height: 640px;
+	background-color: white;
+	padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.question form, #Ask {
+	display: flex;
+	flex-direction: column;
+}
+
+.question input, textarea {
+	margin-bottom: 15px;
+	margin-top: 10px;
+	width: 550px;
+	padding: 10px;
+	resize: none;
+}
+
+.question button {
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	width: 300px;
+	border: none;
+	font-size: 17px;
+	background-color: #223053;
+	color: white;
+	cursor: pointer;
+}
+
+.question button:hover {
+	border-radius: 20px;
+    color: dodgerblue;
+}
+
+#Ask {
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+
+.how-to-ask {
+	position: relative;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	margin: 50px;
+	padding: 30px;
+	height: 450px;
+	padding-left: 50px;
+}
+
+.how-to-ask h1 {
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+.how-to-ask li {
+	margin-bottom: 30px;
+	font-size: 23px;
+}
+
+.how-to-ask p {
+	font-size: 18px;
+}
+
+#ps {
+	padding-top: 30px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: underline;
+}
+
+.exemple {
+	text-decoration: underline;
+	color: gray;
+	font-style: italic;
+	margin-top: 5px;
+}
+
+.err {
+	background-color: lightpink;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
